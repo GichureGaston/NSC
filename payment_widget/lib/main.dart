@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'notification_sound.dart';
+import 'package:payment_widget/welcome_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +19,7 @@ class MyApp extends StatelessWidget {
         primary: Colors.red.shade800,
         onPrimary: Colors.white,
       )),
-      home: NotificationSound(),
+      home: const WelcomeScreen(),
     );
   }
 }
